@@ -121,3 +121,46 @@
 /*   z-index: -1;*/
 /*}*/
     
+/*事業内容ここから*/
+.wrapper-secound{
+  position: absolute;
+    z-index: 3;
+    top: 600px;
+    left: 100px;
+}
+
+.buisiness{
+  text-align: center;
+}
+
+.wrapper-secound>#buisiness-desc{
+  display: flex;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.news-desc{
+  width: 1263px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.news{
+  text-align: center;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+.news-desc > tr {
+  border-bottom: solid 1px #ccc;
+}
+
+
