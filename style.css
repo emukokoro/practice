@@ -198,8 +198,6 @@ time{
   z-index: -1;
 }
 
-
-
 .recruit-info{
   position: relative;
   top: -250px;
@@ -211,17 +209,37 @@ time{
   padding: 10px 50px;
 }
 
-footer{
+.container-footer{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .aboout-camp > ul{
   list-style: none;
 }
 
+
+.foot-nav{
+  width: 500px;
+  height: 116px;
+  line-height: 116px;
+}
+
 .foot-nav > nav > ul{
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  
+}
+
+.foot-nav > nav > ul> li >a{
+  text-decoration: none;
+   color: black;
+}
+
+.copyright{
+  text-align: center;
+  background-color: #dcdcdc;
+  height: 50px;
+  line-height: 50px;
 }
